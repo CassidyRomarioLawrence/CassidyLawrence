@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@200..700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@200..700&display=swap');
+
+.navbar-brand img{
+  width: 100px;
+}
+
+.intro h2 {
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 8px;
+  font-size: 1.5rem;
+}
+
+.intro h1{
+  font-family: "Oswald", sans-serif;
+  font-size: 1.28rem;
+}
+
+.intro span {
+  font-family: "Satisfy", cursive;
+  font-size: 1.8rem;
+  white-space: nowrap;
+}
+
+.intro {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+@media(min-width:768px){
+  .intro h2{
+    font-size: 3rem;
+  }
+  .intro span {
+    font-size: 3.5rem;
+  }
+  .intro h1{
+    font-size: 1.6rem;
+  }
+}
